@@ -8,6 +8,7 @@ userScore = 0
 computerScore = 0
 
 # Returns computer moves
+# this functions return a string
 def computerMove():
     return movesList.index(choice(movesList))
 
